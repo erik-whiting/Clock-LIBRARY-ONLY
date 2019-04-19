@@ -1,0 +1,26 @@
+﻿Use Case -- Display Hour
+
+Main Scenario
+	1. System determines the new hour is less than 10
+	2. System disables the displays hour's tens place
+	3. System displays the appropriate digit of the hour's unit place
+
+Alternate Scenario -- Hour does not need changing
+	1. System determines the new hour is 10, 11 or 12
+	2. System enables the displays hour's tens place digit (show "1")
+	3. System displays the appropriate digit of the hour's unit place
+
+
+
+
+Use Case -- Display Minute
+
+Main Scenario
+	1. System determines the new minute is less than 10
+	2. System disables the displays minute's tens place
+	3. System displays the appropriate digit of the minute's unit place
+
+Alternate Scenario -- New minute greater than 9
+	1. System determines the new minute greater than 9
+	2. System displays the appropriate digit of the minute's tens place
+	3. System displays the appropriate digit of the minute's unit place

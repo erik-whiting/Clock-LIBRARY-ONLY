@@ -1,0 +1,15 @@
+Use Case -- Inform 60 Seconds Has Elapsed
+
+Main Scenario
+	1. Timer informs System that 60 seconds has elapsed
+	2. System increments the current time by one minute
+	3. System displays the new hour and minute
+	4. System determines alarm is enabled
+	5. System determines current time and (alarm time or snooze time) are the same
+	6. System sounds alarm
+
+Alternate Scenario -- Alarm is NOT enabled
+	4. System determines alarm is NOT enabled
+
+Alternate Scenario -- Current time and (alarm time or snooze time) are NOT the same
+	5. System determines current time and (alarm time or snooze time) are NOT the same

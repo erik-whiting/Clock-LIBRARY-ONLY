@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="03e570e8-6117-4d8f-86b3-e561439e25a8" name="Digital Clock" linkedPackageId="637a7d96-33cd-467f-9010-daabe575d0cc" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="ff408f34-ac8d-4260-81f2-0797edd8e853" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="b84c3dd5-f0ed-42b6-8e83-c900587c3e6f" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4011b393-5676-42c0-9558-62af72b258ec">
+          <propertyInstance Id="faded358-9779-4f1c-955b-fa57efcba6fe" name="BaseName">
+            <elementDefinition Id="70829911-f392-4174-a4e4-c238cc85dec2" />
+          </propertyInstance>
+          <elementDefinition Id="83ff89e7-b5dc-48f3-bbb0-4bd37d8bf589" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="3d562c92-70a1-4531-b27e-4b28f6c3d71f">
+          <propertyInstance Id="4767340d-aa6f-4bf7-81ec-343716817844" name="ClrAttributes">
+            <elementDefinition Id="13dfa6a3-3cc3-47e5-928b-2bd4b531b7c5" />
+          </propertyInstance>
+          <elementDefinition Id="b39542a5-a6af-4c88-a6ed-f5aebd1f6242" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1723c414-bfcc-4bf6-bd35-a20593c50dcf">
+          <propertyInstance Id="67a4bfe1-179d-4039-a588-c66fa701b91c" name="Usings">
+            <elementDefinition Id="c556e554-dd44-47f8-99d0-cf1306dbee85" />
+          </propertyInstance>
+          <elementDefinition Id="a651e79c-9784-425f-8bc5-7224412e9a4e" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="46e09d3d-e404-4624-80f5-8e055ae9b594" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="90fc409d-bb36-42f4-b54b-aa034d645d64" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2044ecfb-02af-43fb-9494-a589a0a710fd">
+          <propertyInstance Id="c50fd0d3-1056-4408-b3c3-0b6771ddf653" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="019e2af5-aa7f-4320-934d-4901f3fa83e8" />
+          </propertyInstance>
+          <elementDefinition Id="dad0c956-dd26-4f19-a4ba-4d9362a49f0e" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1bf7993f-4f91-432f-be7b-d02fe65b7f7a">
+          <propertyInstance Id="862f5ee3-9127-480e-8de3-a21fea60a801" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="ffc05b6e-0f81-4bbc-93c2-10ec38b08369" />
+          </propertyInstance>
+          <elementDefinition Id="cfe3e043-fca5-4b06-81f4-67655a9922a7" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="decbb15e-b319-470e-a84e-a439474c09b1">
+          <propertyInstance Id="cbe692d2-009e-401b-a95c-64e0e5ab9713" name="ProjectPath" value="ClassTemplate=..\Digital ClockLib\Digital ClockLib.csproj|EnumTemplate=..\Digital ClockLib\Digital ClockLib.csproj|InterfaceTemplate=..\Digital ClockLib\Digital ClockLib.csproj|StructTemplate=..\Digital ClockLib\Digital ClockLib.csproj">
+            <elementDefinition Id="fd8d03e7-e8fd-4ae5-9fa5-7a63d5e8589a" />
+          </propertyInstance>
+          <elementDefinition Id="635225a2-7e7f-47e5-9a67-21c4420a22ed" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="af1c3797-0dfa-4243-86bb-dea5cd2696a6">
+          <propertyInstance Id="f10b47d2-712d-439a-87ad-a48b0d3f9edf" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="94a78d81-9ec1-476b-9648-9787ea5e11b3" />
+          </propertyInstance>
+          <elementDefinition Id="82e67dab-73a4-4837-965c-a09cc2575407" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6aef441b-6d1e-47c6-ad5a-cc17d48c6c46">
+          <propertyInstance Id="bc6c6606-8cfc-4e5b-a344-ce10afc93fa7" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="7d8e3953-a9a6-4b30-8c65-8cf232d7726e" />
+          </propertyInstance>
+          <elementDefinition Id="747e3bd8-e13d-4203-908b-d895049a4e68" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bd002154-d608-4207-b7cc-aec180ad68de">
+          <propertyInstance Id="f7025188-bee1-4074-ba16-794854cd4f63" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="094f52d3-eb27-4a68-9ca6-fd4bf46b348a" />
+          </propertyInstance>
+          <elementDefinition Id="93c7d71c-75a7-4bea-87e0-2f4cefe48494" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ced53232-5c35-4d60-9941-bcf3f8be5466">
+          <propertyInstance Id="c2b7e57c-4480-40e9-a697-b97eed1afff9" name="Parameters">
+            <elementDefinition Id="45a42ad7-a179-496c-b5b8-3867a1891911" />
+          </propertyInstance>
+          <elementDefinition Id="ba42c9ab-5b55-4a97-a425-f3f35795f783" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="a62f6688-1b2a-45f5-a99a-c95eff5b4102">
+      <profileInstance Id="a4a89618-2c08-44b3-b90c-04ae77cec114" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7d628183-cb35-464a-be86-1b8f7860d50a">
+      <profileInstance Id="05e89ee0-dbf0-4aea-b58e-f00095ce3ba9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f20caaa4-e2f0-4a09-a0d7-e1925b2db883">
+      <profileInstance Id="a6c0952c-77ef-4822-a9e5-054fb5fdf049" name="CSharpProfile">
+        <elementDefinition Id="747ff4c4-1b01-4b6a-b346-e2dd0c2fadd4" />
+      </profileInstance>
+      <elementDefinition Id="8f3953f7-ed69-490e-ab85-e1c30b05ecc8" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e0a2f582-3f1f-4867-acad-63ce2debb94c">
+      <profileInstance Id="b03e8399-90ca-44f5-b0dc-1fcaabd5d7c6" name="TextTemplateBindings">
+        <elementDefinition Id="1e40a58a-d805-4704-a3e0-36826ec6b3cf" />
+      </profileInstance>
+      <elementDefinition Id="0358b0b3-5b1e-4595-a89e-1462c38799a0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="60341d04-a379-4e6b-a638-e1bdce57a77f" name="Alarm Clock" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cdb2613a-7078-4892-b840-416468f0ed13" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3f8942c9-f442-4f46-9842-7a0a4aa53cda" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6f16be34-8157-4cbb-a063-50244d95e84b" />
+        <targetEnds>
+          <association Id="b7da4903-c5bf-4a2c-baa1-cc42500ec364" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Set Time of Day" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9942921a-5c65-4e63-9c03-8cd4267bd1d1" LastKnownName="Set Time of Day" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="376ca039-4f05-4165-a370-b5bafd4d9f33" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a3544d3e-7911-4d06-8098-0fd7cf3b142d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de1cf165-d09b-4e5a-b4b7-86c6204a60e7" name="Set Time of Day" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ffaaed16-8f2c-4b84-b68e-395ecdf90405" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aca24763-8327-4cd4-a2a2-7957f03cda9c" />
+          </association>
+          <association Id="5ce0c9a3-766b-4e5e-9f02-83faca4c4fa1" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Set Alarm Time" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a12a0a19-7ca9-463f-a4bd-5bd75020bb01" LastKnownName="Set Alarm Time" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b27b156-654d-4537-a4a7-80a9b1a9a085" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6fec2caf-159d-45db-bc73-49834c238fbe" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="58930c0f-c5e8-4818-a838-5e91f07f3f1e" name="Set Alarm Time" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="831a093e-a626-4867-9a20-831cc4d5612f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1ac51bb0-b2ae-460b-90cb-a3193a80fa1a" />
+          </association>
+          <association Id="063416db-c136-4002-a971-a658301eb9ad" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Disable Alarm" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="734d07c1-a3de-41e2-af01-079fd71ab996" LastKnownName="Disable Alarm" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb4ba6b2-4e2e-4174-8f86-f3d8aa381703" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e4c81408-61e8-4da3-8a70-3ced4cce952d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d2501461-060b-466b-aa0c-ffcc568a17ec" name="Disable Alarm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60f7393a-3ba6-42d4-a7d6-3da0596d5ecf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="53b666ec-2df5-4331-8aeb-46326154f6e2" />
+          </association>
+          <association Id="7a88c53b-c510-4834-8d3a-1cd2bb1ecdd6" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Enable Alarm" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9b62a797-b780-4302-93c7-2b8332eef121" LastKnownName="Enable Alarm" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c971d8be-8674-46ce-9cf3-9605fb3b1d43" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="db796a19-bc99-4b06-b22a-6948ac389f50" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="70f5c982-c698-4a0b-9b3e-f1fd0a8bc294" name="Enable Alarm" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bda67e99-bceb-4565-8921-06831a51724a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9a076d8f-6a06-4f0a-8260-639b9b21aae2" />
+          </association>
+          <association Id="e76bb1f8-83bc-44d6-8f4a-5368c58ccd00" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Snooze" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eb91759d-363f-4680-9211-ce84a9643b90" LastKnownName="Snooze" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acd7dc7d-a7b2-4c1a-9749-a331748f7721" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="463929ec-e0da-4040-9aaa-bc63dd323263" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="877ccd8e-5508-4153-aea8-2751623f97d5" name="Snooze" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="26224051-f096-468c-8d03-7e5e0d751008" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e16d4d3c-d450-4fde-b5ed-5592fbffcfa4" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="deae6b79-d71a-400b-93c2-a95e0e0e4e7c" name="Sixty Second Timer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="304782b6-9bf0-4cfc-b5c6-5a6d2ebc5cff" />
+        <targetEnds>
+          <association Id="244b0935-cd11-4ef7-97fa-895399227888" isDerived="false" sourceEndRoleName="Sixty Second Timer" targetEndRoleName="Inform 60 seconds have elapsed" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f7ddbce4-46af-43ba-9aa8-c1d5a89a22cf" LastKnownName="Inform 60 seconds have elapsed" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="956c1f99-8807-40cc-94a3-f3bdfa953e24" name="Sixty Second Timer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a95fb033-b947-4d3a-bbfb-c0e78e1f26ef" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dd8a9b3a-6f86-409c-bdb1-1e82fea97e24" name="Inform 60 seconds have elapsed" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="19dacbf4-f3ae-42fc-a368-5b4a11578583" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ff84dc8f-a96e-470c-95c2-d90c13af2ff9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="9942921a-5c65-4e63-9c03-8cd4267bd1d1" name="Set Time of Day" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dd21fd89-ae8b-4067-b8c5-62a0ce273668" />
+        <additions>
+          <include Id="706d47fa-8ba7-492d-83e1-b59346934efa">
+            <useCaseMoniker Id="81adb958-f911-43a4-a16a-c2e483ccb4cb" LastKnownName="Display Hour" />
+            <elementDefinition Id="f0c0663a-b680-4413-a722-c47d06a853b2" />
+          </include>
+          <include Id="3c904aae-438e-4a87-b310-b6e12d46061e">
+            <useCaseMoniker Id="743903db-4752-46a9-a71d-8ec01e536b46" LastKnownName="Display Minute" />
+            <elementDefinition Id="fc8d7039-0b2c-4a13-a7b6-2633773ce5ac" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a12a0a19-7ca9-463f-a4bd-5bd75020bb01" name="Set Alarm Time" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f7b51b65-7acc-475a-a0e2-2c3eb3d2ed57" />
+        <additions>
+          <include Id="deef86d7-f6c7-4e64-9a35-404ecb5d90e6">
+            <useCaseMoniker Id="81adb958-f911-43a4-a16a-c2e483ccb4cb" LastKnownName="Display Hour" />
+            <elementDefinition Id="b1f6e484-2eb8-4529-94c5-889e2f782b92" />
+          </include>
+          <include Id="1d875d69-f044-4f98-93cf-234a3cba7ea8">
+            <useCaseMoniker Id="743903db-4752-46a9-a71d-8ec01e536b46" LastKnownName="Display Minute" />
+            <elementDefinition Id="a07c9925-e46c-455d-b7ee-ce6d28846575" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9b62a797-b780-4302-93c7-2b8332eef121" name="Enable Alarm" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="446484d4-ad9f-4f6a-bdea-ac7d8cd1c652" />
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="eb91759d-363f-4680-9211-ce84a9643b90" name="Snooze" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="16274e7d-7c09-4a20-bf68-d4103bab4868" />
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="734d07c1-a3de-41e2-af01-079fd71ab996" name="Disable Alarm" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="48e303f4-b5dd-4461-bc1f-e3f1a8a82511" />
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="81adb958-f911-43a4-a16a-c2e483ccb4cb" name="Display Hour" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f119c56c-23fb-42f5-93eb-e8402e6e8ef4" />
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="743903db-4752-46a9-a71d-8ec01e536b46" name="Display Minute" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b16a0e10-e1de-43ec-83bf-090cd3bfff9d" />
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f7ddbce4-46af-43ba-9aa8-c1d5a89a22cf" name="Inform 60 seconds have elapsed" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="504895c6-2deb-47bd-99d2-a4d22f760304" />
+        <additions>
+          <include Id="d1447851-6589-4e04-91fb-dbf00f25f9d7">
+            <useCaseMoniker Id="743903db-4752-46a9-a71d-8ec01e536b46" LastKnownName="Display Minute" />
+            <elementDefinition Id="813b5f24-8ca2-4ffd-9b32-f40e47f770eb" />
+          </include>
+          <include Id="3590c18d-d5ab-4603-bb4e-808fef9de48e">
+            <useCaseMoniker Id="81adb958-f911-43a4-a16a-c2e483ccb4cb" LastKnownName="Display Hour" />
+            <elementDefinition Id="9ed03b61-d02c-4d2b-9574-347b61b9bea5" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="60341d04-a379-4e6b-a638-e1bdce57a77f" LastKnownName="Alarm Clock" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="637a7d96-33cd-467f-9010-daabe575d0cc" name="Digital Clock">
+    <elementDefinition Id="9b6415e5-2894-4489-b45e-45f2339fb2bf" />
+  </package>
+</useCaseModelRoot>

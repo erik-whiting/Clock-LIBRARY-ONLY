@@ -1,0 +1,22 @@
+﻿Use Case -- Set Alarm Time
+
+Main Scenario
+	1. User places slider in "Set Alarm Position"
+	2. User determines hour needs to be changed
+	3. User presses hour button
+	4. System increments the hour of the alarm time ("mod" 12)
+	5. Include Display Hour
+	6. Repeat steps 3-5 until desired hour is displayed
+	7. User determines minute needs to be changed
+	8. User presses minute button
+	9. System increments the minute of the alarm time ("mod" 60)
+	10. Include Display Minute
+	11. Repeat steps 8-10 until desired minute is displayed
+
+Alternate Scenario -- Hour does not need changing
+	2. User Determines hour value does not need changing
+	3. Rejoin Main Scenario at step 6
+
+Alternate Scenario -- Minute does not need changing
+	7. User Determines Minute value does not need changing
+	8. Rejoin Main Scenario at step 11

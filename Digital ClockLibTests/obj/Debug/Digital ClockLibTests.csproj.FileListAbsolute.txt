@@ -1,0 +1,9 @@
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\bin\Debug\Digital ClockLibTests.dll
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\bin\Debug\Digital ClockLibTests.pdb
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\bin\Debug\Digital ClockLib.dll
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\bin\Debug\Digital ClockLib.pdb
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\obj\Debug\Digital ClockLibTests.csprojResolveAssemblyReference.cache
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\obj\Debug\Digital ClockLibTests.dll
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLibTests\obj\Debug\Digital ClockLibTests.pdb

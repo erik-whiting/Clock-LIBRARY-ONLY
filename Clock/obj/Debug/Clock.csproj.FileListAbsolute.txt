@@ -1,0 +1,10 @@
+c:\users\findler\documents\visual studio 2015\Projects\Clock\Clock\bin\Debug\Clock.exe.config
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\bin\Debug\Clock.exe.config
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\bin\Debug\Clock.exe
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\bin\Debug\Clock.pdb
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\obj\Debug\Clock.csprojResolveAssemblyReference.cache
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\obj\Debug\Clock.MyDigitalClock.resources
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\obj\Debug\Clock.Properties.Resources.resources
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\obj\Debug\Clock.csproj.GenerateResource.Cache
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\obj\Debug\Clock.exe
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Clock\obj\Debug\Clock.pdb

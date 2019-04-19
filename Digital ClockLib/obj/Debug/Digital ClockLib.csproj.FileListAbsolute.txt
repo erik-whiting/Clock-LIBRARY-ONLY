@@ -1,0 +1,5 @@
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLib\obj\Debug\Digital ClockLib.csprojResolveAssemblyReference.cache
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLib\bin\Debug\Digital ClockLib.dll
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLib\bin\Debug\Digital ClockLib.pdb
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLib\obj\Debug\Digital ClockLib.dll
+C:\Users\eedee\Documents\mastersStuff\Spring19\SW Constr 2\Project1\Clock\Clock\Digital ClockLib\obj\Debug\Digital ClockLib.pdb

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock", "Clock\Clock.csproj", "{0DDDFAA5-BD65-4472-B1B2-052FF13C3241}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Digital Clock", "Digital Clock\Digital Clock.modelproj", "{513C37F2-FCD0-4D01-9265-56ECD1CB8BDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85F255BE-C6D5-40AF-9DF1-8EE911C38C9A}"
+	ProjectSection(SolutionItems) = preProject
+		Clock\Use Case Display Hour.txt = Clock\Use Case Display Hour.txt
+		Use Case Inform 60 Seconds Has Elapsed.txt = Use Case Inform 60 Seconds Has Elapsed.txt
+		Clock\Use Case Set Alarm Time.txt = Clock\Use Case Set Alarm Time.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digital ClockLib", "Digital ClockLib\Digital ClockLib.csproj", "{9785807C-7D2F-4DD5-B5B3-81C07B290B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryTester", "UnitTestProject1\LibraryTester.csproj", "{51C93213-7456-4969-83FD-C7BF45E939D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digital ClockLibTests", "Digital ClockLibTests\Digital ClockLibTests.csproj", "{B8D8CC4B-64B0-46AB-A989-33561BA51546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDDFAA5-BD65-4472-B1B2-052FF13C3241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDDFAA5-BD65-4472-B1B2-052FF13C3241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDDFAA5-BD65-4472-B1B2-052FF13C3241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDDFAA5-BD65-4472-B1B2-052FF13C3241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513C37F2-FCD0-4D01-9265-56ECD1CB8BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513C37F2-FCD0-4D01-9265-56ECD1CB8BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513C37F2-FCD0-4D01-9265-56ECD1CB8BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513C37F2-FCD0-4D01-9265-56ECD1CB8BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9785807C-7D2F-4DD5-B5B3-81C07B290B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9785807C-7D2F-4DD5-B5B3-81C07B290B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9785807C-7D2F-4DD5-B5B3-81C07B290B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9785807C-7D2F-4DD5-B5B3-81C07B290B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C93213-7456-4969-83FD-C7BF45E939D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C93213-7456-4969-83FD-C7BF45E939D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C93213-7456-4969-83FD-C7BF45E939D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C93213-7456-4969-83FD-C7BF45E939D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D8CC4B-64B0-46AB-A989-33561BA51546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D8CC4B-64B0-46AB-A989-33561BA51546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D8CC4B-64B0-46AB-A989-33561BA51546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D8CC4B-64B0-46AB-A989-33561BA51546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
